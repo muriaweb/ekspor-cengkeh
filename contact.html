@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>CloveDirect - Contact</title>
+    <meta name="view-transition" content="same-origin" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary-container": "#3f6d38", "background": "#fbf9f4", "surface-tint": "#795553", "on-primary-fixed-variant": "#5f3e3c", "on-error-container": "#93000a", "secondary-fixed": "#bcf0ae", "on-secondary-fixed-variant": "#23501e", "on-tertiary": "#ffffff", "inverse-primary": "#eabcb8", "primary": "#321716", "on-secondary-fixed": "#002201", "secondary-container": "#b9eeab", "primary-fixed": "#ffdad7", "on-tertiary-fixed-variant": "#574500", "outline-variant": "#d4c3c1", "on-primary": "#ffffff", "on-background": "#1b1c19", "surface-container": "#f0eee9", "tertiary-container": "#cba72f", "inverse-surface": "#30312e", "on-error": "#ffffff", "on-tertiary-container": "#4e3d00", "surface-variant": "#e4e2dd", "secondary": "#3b6934", "error": "#ba1a1a", "on-primary-fixed": "#2e1413", "tertiary-fixed-dim": "#e9c349", "error-container": "#ffdad6", "secondary-fixed-dim": "#a1d494", "primary-fixed-dim": "#eabcb8", "inverse-on-surface": "#f2f1ec", "surface": "#fbf9f4", "on-secondary": "#ffffff", "on-surface-variant": "#504443", "on-tertiary-fixed": "#241a00", "outline": "#827472", "surface-container-high": "#eae8e3", "tertiary": "#735c00", "primary-container": "#4a2c2a", "surface-dim": "#dbdad5", "on-primary-container": "#bd928f", "surface-container-low": "#f5f3ee", "tertiary-fixed": "#ffe088", "on-surface": "#1b1c19", "surface-container-highest": "#e4e2dd", "surface-container-lowest": "#ffffff", "surface-bright": "#fbf9f4"
+                    },
+                    "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
+                    "spacing": { "section-padding-lg": "120px", "stack-space": "16px", "container-max": "1280px", "section-padding-md": "80px", "margin-mobile": "16px", "gutter": "24px" },
+                    "fontFamily": { "body-md": ["Manrope"], "display-lg": ["Libre Caslon Text"], "display-lg-mobile": ["Libre Caslon Text"], "label-sm": ["Manrope"], "label-md": ["Manrope"], "body-lg": ["Manrope"], "headline-md": ["Libre Caslon Text"], "headline-lg": ["Libre Caslon Text"] },
+                    "fontSize": { "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}], "display-lg": ["64px", {"lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "700"}], "display-lg-mobile": ["40px", {"lineHeight": "48px", "fontWeight": "700"}], "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "700"}], "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}], "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}], "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "600"}], "headline-lg": ["48px", {"lineHeight": "56px", "fontWeight": "600"}] }
+                }
+            }
+        }
+    </script>
+    <style>
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        @view-transition { navigation: auto; }
+    </style>
+    <script src="js/app.js" defer></script>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased overflow-x-hidden opacity-0 transition-opacity duration-300 min-h-screen flex flex-col" id="body-content">
+    <div id="navbar-placeholder"></div>
+    <main class="flex-grow">
+        <!-- Contact Header -->
+        <header class="py-20 bg-surface-container-low border-b border-outline-variant/30 text-center">
+            <h1 class="font-display-lg text-headline-lg text-primary mb-4" data-i18n="contact_headline">Get in Touch</h1>
+            <p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto px-4" data-i18n="contact_subhead">We are ready to fulfill your premium clove requirements globally. Our export specialists will respond within 24 hours.</p>
+        </header>
+
+        <section class="py-section-padding-md md:py-section-padding-lg bg-surface relative">
+            <div class="max-w-container-max mx-auto px-margin-mobile md:px-section-padding-md">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+                    
+                    <!-- Contact Info -->
+                    <div class="md:col-span-5 flex flex-col gap-10">
+                        <div class="flex gap-4 items-start">
+                            <div class="bg-primary/10 p-3 rounded-full text-primary mt-1">
+                                <span class="material-symbols-outlined text-[24px]">location_on</span>
+                            </div>
+                            <div>
+                                <h3 class="font-label-md text-label-md uppercase tracking-widest text-outline mb-2" data-i18n="contact_office">Head Office</h3>
+                                <p class="font-body-lg text-body-lg text-on-surface font-semibold" data-i18n="contact_office_addr">Jl. Rempah Nusantara No. 12, Jakarta Selatan, 12950, Indonesia</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex gap-4 items-start">
+                            <div class="bg-primary/10 p-3 rounded-full text-primary mt-1">
+                                <span class="material-symbols-outlined text-[24px]">call</span>
+                            </div>
+                            <div>
+                                <h3 class="font-label-md text-label-md uppercase tracking-widest text-outline mb-2" data-i18n="contact_phone">Phone / WhatsApp</h3>
+                                <a href="tel:+6281122334455" class="font-body-lg text-body-lg text-on-surface font-semibold hover:text-primary transition-colors block">+62 811 2233 4455</a>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4 items-start">
+                            <div class="bg-primary/10 p-3 rounded-full text-primary mt-1">
+                                <span class="material-symbols-outlined text-[24px]">mail</span>
+                            </div>
+                            <div>
+                                <h3 class="font-label-md text-label-md uppercase tracking-widest text-outline mb-2" data-i18n="contact_email">Email Inquiries</h3>
+                                <a href="mailto:export@clovedirect.com" class="font-body-lg text-body-lg text-on-surface font-semibold hover:text-primary transition-colors block">export@clovedirect.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="md:col-span-7 bg-white p-8 md:p-12 rounded-xl border border-outline-variant/30 shadow-lg mt-10 md:mt-0">
+                        <form class="flex flex-col gap-6" onsubmit="event.preventDefault(); alert('Message sent!');">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <input type="text" data-i18n="contact_form_name" placeholder="Full Name" class="w-full px-4 py-3 bg-surface-container-low border border-outline-variant/50 rounded focus:ring-2 focus:ring-primary focus:border-transparent transition-all" required>
+                                </div>
+                                <div>
+                                    <input type="email" data-i18n="contact_form_email" placeholder="Email Address" class="w-full px-4 py-3 bg-surface-container-low border border-outline-variant/50 rounded focus:ring-2 focus:ring-primary focus:border-transparent transition-all" required>
+                                </div>
+                            </div>
+                            <div>
+                                <input type="text" data-i18n="contact_form_company" placeholder="Company Name" class="w-full px-4 py-3 bg-surface-container-low border border-outline-variant/50 rounded focus:ring-2 focus:ring-primary focus:border-transparent transition-all">
+                            </div>
+                            <div>
+                                <textarea data-i18n="contact_form_msg" placeholder="Your Requirements" rows="5" class="w-full px-4 py-3 bg-surface-container-low border border-outline-variant/50 rounded focus:ring-2 focus:ring-primary focus:border-transparent transition-all resize-none" required></textarea>
+                            </div>
+                            <button type="submit" class="bg-primary text-on-primary px-8 py-4 rounded font-label-md text-label-md uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors w-full mt-2" data-i18n="contact_form_submit">Send Message</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="footer-placeholder"></div>
+</body>
+</html>

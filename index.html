@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>CloveDirect - Home</title>
+    <meta name="view-transition" content="same-origin" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary-container": "#3f6d38", "background": "#fbf9f4", "surface-tint": "#795553", "on-primary-fixed-variant": "#5f3e3c", "on-error-container": "#93000a", "secondary-fixed": "#bcf0ae", "on-secondary-fixed-variant": "#23501e", "on-tertiary": "#ffffff", "inverse-primary": "#eabcb8", "primary": "#321716", "on-secondary-fixed": "#002201", "secondary-container": "#b9eeab", "primary-fixed": "#ffdad7", "on-tertiary-fixed-variant": "#574500", "outline-variant": "#d4c3c1", "on-primary": "#ffffff", "on-background": "#1b1c19", "surface-container": "#f0eee9", "tertiary-container": "#cba72f", "inverse-surface": "#30312e", "on-error": "#ffffff", "on-tertiary-container": "#4e3d00", "surface-variant": "#e4e2dd", "secondary": "#3b6934", "error": "#ba1a1a", "on-primary-fixed": "#2e1413", "tertiary-fixed-dim": "#e9c349", "error-container": "#ffdad6", "secondary-fixed-dim": "#a1d494", "primary-fixed-dim": "#eabcb8", "inverse-on-surface": "#f2f1ec", "surface": "#fbf9f4", "on-secondary": "#ffffff", "on-surface-variant": "#504443", "on-tertiary-fixed": "#241a00", "outline": "#827472", "surface-container-high": "#eae8e3", "tertiary": "#735c00", "primary-container": "#4a2c2a", "surface-dim": "#dbdad5", "on-primary-container": "#bd928f", "surface-container-low": "#f5f3ee", "tertiary-fixed": "#ffe088", "on-surface": "#1b1c19", "surface-container-highest": "#e4e2dd", "surface-container-lowest": "#ffffff", "surface-bright": "#fbf9f4"
+                    },
+                    "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
+                    "spacing": { "section-padding-lg": "120px", "stack-space": "16px", "container-max": "1280px", "section-padding-md": "80px", "margin-mobile": "16px", "gutter": "24px" },
+                    "fontFamily": { "body-md": ["Manrope"], "display-lg": ["Libre Caslon Text"], "display-lg-mobile": ["Libre Caslon Text"], "label-sm": ["Manrope"], "label-md": ["Manrope"], "body-lg": ["Manrope"], "headline-md": ["Libre Caslon Text"], "headline-lg": ["Libre Caslon Text"] },
+                    "fontSize": { "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}], "display-lg": ["64px", {"lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "700"}], "display-lg-mobile": ["40px", {"lineHeight": "48px", "fontWeight": "700"}], "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "700"}], "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}], "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}], "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "600"}], "headline-lg": ["48px", {"lineHeight": "56px", "fontWeight": "600"}] }
+                }
+            }
+        }
+    </script>
+    <style>
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        @view-transition { navigation: auto; }
+    </style>
+    <script src="js/app.js" defer></script>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased overflow-x-hidden opacity-0 transition-opacity duration-300 min-h-screen flex flex-col" id="body-content">
+    <div id="navbar-placeholder"></div>
+    <main class="flex-grow">
+        <!-- Hero Section -->
+        <header class="relative min-h-[80vh] flex items-center justify-center overflow-hidden" id="home">
+            <div class="absolute inset-0 z-0">
+                <img alt="Premium Clove Sourcing" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZWYHWvO9VaqYTktqzGVU5FIgSm4aS884r5lBVoKEQ3RtofPBiHUygx5s9pzZUzFARxgwXbafbklIb8XeiEG0GOJ8brBkJYHaaVC6BeOOfAt3lzGCzuIAgteExD-yMMsk8M6Vm0UVulaJUA-698yg6FgrKvfvyTziBHZcn4A-48EpPlCVGqIcOGziuNxSHDBteeL8czrcP8mlQiw7OEy5fiDU8gKRgrj-NZAr3S5X4FDBaL-XkY3YR27ocSH7UOq6SCksUAv1kCA">
+                <div class="absolute inset-0 bg-primary/70 mix-blend-multiply"></div>
+            </div>
+            <div class="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-section-padding-md w-full grid grid-cols-1 md:grid-cols-12 gap-gutter">
+                <div class="md:col-span-8 flex flex-col items-start text-white">
+                    <h1 class="font-display-lg text-display-lg-mobile md:text-display-lg mb-6 leading-tight" data-i18n="hero_headline">Premium Indonesian Cloves for the Global Market</h1>
+                    <p class="font-body-lg text-body-lg mb-8 max-w-2xl text-surface-container-high" data-i18n="hero_subhead">Directly sourced from sustainable plantations, ensuring the highest grade and authentic aroma for your business.</p>
+                    <a href="contact.html" class="nav-link bg-primary-container text-on-primary px-8 py-4 rounded font-label-md text-label-md uppercase tracking-widest hover:border-tertiary-container hover:text-tertiary-container border border-transparent transition-all shadow-[0_10px_30px_rgba(74,44,42,0.3)] inline-block" data-i18n="hero_cta" data-page="contact">Request a Quote</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- About Section (Summary) -->
+        <section class="py-section-padding-md md:py-section-padding-lg bg-surface">
+            <div class="max-w-container-max mx-auto px-margin-mobile md:px-section-padding-md">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter md:items-stretch">
+                    <div class="md:col-span-6 relative mb-10 md:mb-0">
+                        <div class="aspect-[4/5] md:aspect-auto md:h-full rounded-lg overflow-hidden border border-outline-variant/30">
+                            <img alt="Sustainable Clove Farming" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5T_MHDeRqYU7L8BG5IkF_OFSp6ErswdXzdSFKJRjO03rVh4h3GCCtjgsXg__LDTcfZgSuik-uwYn04K5b5JqouRoagS94WdyKff8ImX3SiCPmjDxRKjkROzwZAgaJ0WHRdsCgLxqDr1p55JdVSk1f4Hx2llnfZWdqx5h5Q1gayXnm6m679dn1LBr11q72dnwjmaHuu4vtIj0uVn58xKVXFDRPr4EkPlw0FieboKqtBW2mAz1ra6QnyP0OxA0xsPR3uwGBxgF9Xw">
+                        </div>
+                    </div>
+                    <div class="md:col-span-6 md:pl-12 flex flex-col justify-center">
+                        <span class="font-label-sm text-label-sm text-on-secondary-container uppercase tracking-widest mb-4 block" data-i18n="about_label">Our Heritage</span>
+                        <h2 class="font-headline-lg text-headline-md md:text-headline-lg text-primary mb-6" data-i18n="about_headline">Direct from Source</h2>
+                        <p class="font-body-lg text-body-lg text-on-surface-variant mb-6" data-i18n="about_p1">CloveDirect bridges the gap between ancestral Indonesian agriculture and modern global logistics. We are committed to sourcing the finest cloves directly from generations of skilled farmers.</p>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-8" data-i18n="about_p2">Our process ensures fair trade practices while maintaining the highest quality standards, delivering a premium product tailored for luxury spice retailers and industrial distributors worldwide.</p>
+                        <a href="about.html" class="nav-link text-primary font-label-md uppercase tracking-widest hover:text-tertiary-container transition-colors inline-flex items-center gap-2" data-i18n="about_link" data-page="about">Learn More <span class="material-symbols-outlined text-[20px]">arrow_forward</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specifications & Quality -->
+        <section class="py-section-padding-md md:py-section-padding-lg bg-white relative">
+            <div class="max-w-container-max mx-auto px-margin-mobile md:px-section-padding-md">
+                <div class="text-center mb-16 max-w-3xl mx-auto">
+                    <h2 class="font-headline-lg text-headline-md md:text-headline-lg text-primary mb-4" data-i18n="specs_headline">Product Specifications</h2>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant" data-i18n="specs_subhead">We offer industry-leading grades, meticulously sorted to meet precise B2B requirements.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter mb-16">
+                    <div class="bg-surface rounded-lg border border-outline-variant p-8 flex flex-col h-full relative overflow-hidden group">
+                        <div class="absolute top-0 right-0 bg-secondary/10 px-4 py-2 rounded-bl-lg">
+                            <span class="font-label-sm text-label-sm text-on-secondary-container uppercase tracking-widest" data-i18n="grade_a_label">Grade A</span>
+                        </div>
+                        <h3 class="font-headline-md text-headline-md text-primary mb-6 mt-4" data-i18n="specs_lal_pari">Lal Pari (Reddish Brown)</h3>
+                        <ul class="space-y-4 flex-grow">
+                            <li class="flex items-center gap-4 border-b border-outline-variant/50 pb-4">
+                                <span class="material-symbols-outlined text-secondary">water_drop</span>
+                                <div>
+                                    <span class="block font-label-sm text-label-sm text-outline uppercase tracking-wider" data-i18n="spec_moisture_label">Moisture</span>
+                                    <span class="font-body-md text-body-md text-on-surface font-semibold">&lt; 12%</span>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-4 border-b border-outline-variant/50 pb-4">
+                                <span class="material-symbols-outlined text-secondary">eco</span>
+                                <div>
+                                    <span class="block font-label-sm text-label-sm text-outline uppercase tracking-wider" data-i18n="spec_stems_label">Stems</span>
+                                    <span class="font-body-md text-body-md text-on-surface font-semibold">&lt; 5%</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-surface rounded-lg border border-outline-variant p-8 flex flex-col h-full relative overflow-hidden group">
+                        <div class="absolute top-0 right-0 bg-tertiary-container/10 px-4 py-2 rounded-bl-lg">
+                            <span class="font-label-sm text-label-sm text-tertiary-container uppercase tracking-widest" data-i18n="grade_premium_label">Premium</span>
+                        </div>
+                        <h3 class="font-headline-md text-headline-md text-primary mb-6 mt-4" data-i18n="specs_handpick">Handpick (CG3)</h3>
+                        <ul class="space-y-4 flex-grow">
+                            <li class="flex items-center gap-4 border-b border-outline-variant/50 pb-4">
+                                <span class="material-symbols-outlined text-secondary">water_drop</span>
+                                <div>
+                                    <span class="block font-label-sm text-label-sm text-outline uppercase tracking-wider" data-i18n="spec_moisture_label">Moisture</span>
+                                    <span class="font-body-md text-body-md text-on-surface font-semibold">&lt; 10%</span>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-4 border-b border-outline-variant/50 pb-4">
+                                <span class="material-symbols-outlined text-secondary">eco</span>
+                                <div>
+                                    <span class="block font-label-sm text-label-sm text-outline uppercase tracking-wider" data-i18n="spec_stems_label">Stems</span>
+                                    <span class="font-body-md text-body-md text-on-surface font-semibold">&lt; 1%</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="text-center mb-16 mt-8">
+                    <a href="product.html" class="nav-link bg-primary text-on-primary px-8 py-4 rounded font-label-md text-label-md uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors inline-flex items-center gap-2" data-i18n="specs_view_more" data-page="product">View More Products <span class="material-symbols-outlined text-[20px]">arrow_forward</span></a>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center mt-16 pt-16 border-t border-outline-variant/30">
+                    <div class="md:col-span-5 flex flex-col justify-center order-2 md:order-1">
+                        <span class="font-label-sm text-label-sm text-tertiary-container uppercase tracking-widest mb-4 block" data-i18n="qc_label">Assurance</span>
+                        <h2 class="font-headline-lg text-headline-md md:text-headline-lg text-primary mb-6" data-i18n="qc_headline">Rigorous Quality Control</h2>
+                        <p class="font-body-lg text-body-lg text-on-surface-variant mb-6" data-i18n="qc_p1">Every batch undergoes strict laboratory testing to ensure compliance with international food safety and trading standards.</p>
+                        <ul class="space-y-4">
+                            <li class="flex items-center gap-3">
+                                <div class="w-8 h-8 rounded-full bg-secondary-container/30 flex items-center justify-center text-on-secondary-container">
+                                    <span class="material-symbols-outlined text-[18px]">check</span>
+                                </div>
+                                <span class="font-body-md text-body-md text-on-surface" data-i18n="qc_point1">ISO Certified Processing</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <div class="w-8 h-8 rounded-full bg-secondary-container/30 flex items-center justify-center text-on-secondary-container">
+                                    <span class="material-symbols-outlined text-[18px]">check</span>
+                                </div>
+                                <span class="font-body-md text-body-md text-on-surface" data-i18n="qc_point2">Phytosanitary Certification</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="md:col-span-7 relative order-1 md:order-2 mb-10 md:mb-0">
+                        <div class="aspect-video rounded-lg overflow-hidden border border-outline-variant/30">
+                            <img alt="Laboratory Quality Control" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvO7fI28ojom5u2ERMR8eq-ReFqJO5TRG1Xj0-9ukn-y25kQrQIqTY8Z6LE7Eaaa5EoU48kyaCqlx6zPdbZb5ySMXc2qcZJRiBCNtcq540in5PXRe45E0s0hMMTWVLHA6PmrdE86KGBiEVo6Q06ogrRnHQZsiXrkFCLlVBGIGRBsZkaZuEnuojkgEnJ9XPoyuGZMfT1JlBYeM1SpVU_jCY1LTpigq8gGzowYafcOomR5sYhKQG-abEXmGUaGhHqg-m1j5lrNRnkg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="py-20 bg-surface-container-low text-on-surface">
+            <div class="max-w-container-max mx-auto px-margin-mobile md:px-section-padding-md">
+                <div class="text-center mb-16 max-w-3xl mx-auto">
+                    <h2 class="font-headline-lg text-headline-md md:text-headline-lg text-primary mb-4" data-i18n="why_headline">Why Partner With Us</h2>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+                    <div class="p-8 border border-outline-variant/50 rounded-lg bg-surface flex flex-col items-start shadow-sm">
+                        <span class="material-symbols-outlined text-primary text-4xl mb-6">agriculture</span>
+                        <h3 class="font-headline-md text-body-lg font-bold text-primary mb-4" data-i18n="why_card1_title">Direct from Source</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant" data-i18n="why_card1_text">Eliminating middlemen to provide competitive pricing and full transparency in the supply chain.</p>
+                    </div>
+                    <div class="p-8 border border-outline-variant/50 rounded-lg bg-surface flex flex-col items-start shadow-sm">
+                        <span class="material-symbols-outlined text-primary text-4xl mb-6">verified</span>
+                        <h3 class="font-headline-md text-body-lg font-bold text-primary mb-4" data-i18n="why_card2_title">Superior Quality</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant" data-i18n="why_card2_text">Meticulous harvesting and processing ensuring high essential oil content and perfect appearance.</p>
+                    </div>
+                    <div class="p-8 border border-outline-variant/50 rounded-lg bg-surface flex flex-col items-start shadow-sm">
+                        <span class="material-symbols-outlined text-primary text-4xl mb-6">local_shipping</span>
+                        <h3 class="font-headline-md text-body-lg font-bold text-primary mb-4" data-i18n="why_card3_title">Worldwide Logistics</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant" data-i18n="why_card3_text">Experienced in handling complex international shipping documents and timely deliveries.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="footer-placeholder"></div>
+</body>
+</html>
